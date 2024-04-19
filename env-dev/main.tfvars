@@ -6,12 +6,9 @@ parameters = [
   { name = "dev.frontend.payment_url", value = "http://payment-dev.haseebdevops.online:8080/"},
   { name = "dev.catalogue.mongo.endpoint", value = "mongodb-dev.haseebdevops.online"},
   { name = "dev.catalogue.mongo", value = "MONGO=true"},
-  { name = "dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.haseebdevops.online:27017/catalogue"}
+  { name = "dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.haseebdevops.online:27017/catalogue"},
+  { name = "dev.user.mongo", value = "MONGO=true"},
+  { name = "dev.user.redis_host", value = "redis-dev.haseebdevops.online"},
+  { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.haseebdevops.online:27017/users"}
 ]
-
-
-
-
-
-
 
