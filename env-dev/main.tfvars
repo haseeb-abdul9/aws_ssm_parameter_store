@@ -11,4 +11,3 @@ parameters = [
   { name = "dev.user.redis_host", value = "redis-dev.haseebdevops.online"},
   { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.haseebdevops.online:27017/users"}
 ]
-
