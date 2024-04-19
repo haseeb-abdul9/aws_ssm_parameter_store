@@ -12,5 +12,9 @@ parameters = [
   { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.haseebdevops.online:27017/users"},
   { name = "dev.cart.redis_host", value = "redis-dev.haseebdevops.online"},
   { name = "dev.cart.catalogue_host", value = "catalogue-dev.haseebdevops.online"},
-  { name = "dev.cart.catalogue_port", value = "8080"}
+  { name = "dev.cart.catalogue_port", value = "8080"},
+  { name = "dev.shipping.cart_endpoint", value = "cart-dev.haseebdevops.online:8080"},
+  { name = "dev.shipping.db_host", value = "mysql-dev.haseebdevops.online"},
+  { name = "dev.shipping.db_user", value = "root"},
+  { name = "dev.shipping.db_password", value = "roboshop@1"}
 ]
